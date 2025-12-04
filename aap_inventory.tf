@@ -8,6 +8,11 @@ data "aap_job_template" "deploy_web_site" {
   organization_name = var.organization_name
 }
 
+resource "aap_inventory" "bradz_test_inv" {
+  name         = "BRADZ667 - Inventory TF v1"
+  description  = "A inventory for testing n3"
+  organization = 2
+}
 
 resource "aap_inventory" "inventory" {
   name         = "${var.instance_name_prefix}-aap-inventory"
