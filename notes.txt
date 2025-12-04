@@ -1,0 +1,6 @@
+providers.tf 							- Add aap provider in the providers.tf
+aap_job.tf 				 				- Create an aap_job.tf in your GitHub repository and add code to create an inventory and job_templates aap_job.tf contains 2 data objects and 2 
+										resources and some resources are dependent on another resources
+aap_inventory.tf						- Create an aap_inventory.tf in your GitHub repository and add code to create an inventory aap_inventory.tf contains three resources and optional 
+										two data objects or just use hard-coded values 😉
+										Make sure the job templates in AAP have "Prompt on lauch" enabled
