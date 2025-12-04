@@ -17,7 +17,7 @@ terraform {
         #username = "my-aap-username" # Also supports AAP_USERNAME environment variable
         #password = "my-aap-password" # Also supports AAP_PASSWORD environment variable
     }
-}
+  }
 }
 # Configure the AWS Provider
 provider "aws" {
