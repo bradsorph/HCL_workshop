@@ -21,5 +21,9 @@ provider "aws" {
   }
 }
 
+provider "aap" {
+  host = "https://caap.fvz.ansible-labs.de"
+}
+
 
 
